@@ -39,5 +39,8 @@ fn main() {
     // handling. This will not work.
     // println!("This struct `{}` won't print...", Structure(3));
     // FIXME ^ Comment out this line.
+
+    let pi=3.141592;
+    println!("Pi is roughly {pi:.*}", 3, pi=pi);
 }
 
